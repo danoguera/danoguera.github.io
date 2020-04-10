@@ -1,0 +1,43 @@
+body{
+  background-image: url("/images/bk_image.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Monoton';
+}
+
+.personal{
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.personal img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 5px solid #FFFFFF;
+}
+
+.personal h1{
+  padding-top: 19px;
+  font-size: 35px;
+}
+
+.personal h2{
+  font-size: 28px;
+}
+
+.box{
+  background-color: #E8E8E8;
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  background: rgba(0,0,0,0.4);
+}
