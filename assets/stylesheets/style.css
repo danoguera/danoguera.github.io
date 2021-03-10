@@ -44,5 +44,29 @@ body {
 }
 
 .subBox {
+  width: 400px;
   display: inline-block;
+  clear: both;
+}
+
+.subBox h2 {
+  display: inline;
+  margin: 25px;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0f0f0f;
+  text-decoration: underline;
+}
+a:active {
+  color: #000000;
+  text-decoration: none;
 }
